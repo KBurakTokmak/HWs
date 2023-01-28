@@ -6,7 +6,7 @@ import java.awt.*;
 
 // Meta Actor Class
 // Everything in the game is an actor
-public abstract class AbstractActor extends AABB //Needs a decorator that implements IRealTimeComponent
+public abstract class AbstractActor extends AABB
 {
     // TODO:
 
