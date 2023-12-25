@@ -1,0 +1,5 @@
+Land Dimensions: X = 10, Y = 6
+Possible Plots:
+Plot 1: (2, 2) => possible_plot[2][2] = true;
+Plot 2: (2, 6) => possible_plot[2][6] = true;
+Plot 3: (4, 4) => possible_plot[4][4] = true;

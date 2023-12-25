@@ -29,9 +29,8 @@ void init_dp(int** dp, int X, int Y, bool** possible_plots) {
     }
 }
 
-
 int divide_land(int X, int Y, bool** possible_plots) {
-    
+ 
     int** dp = new int*[X + 1];
     for (int i = 0; i <= X; i++) {
         dp[i] = new int[Y + 1];
@@ -55,10 +54,11 @@ int divide_land(int X, int Y, bool** possible_plots) {
         }
     }
     int result = dp[X][Y];
-    //free memory
+    // free memory
     for (int i = 0; i <= X; i++) {
         delete[] dp[i];
     }
+   
 
     return result;
 }
